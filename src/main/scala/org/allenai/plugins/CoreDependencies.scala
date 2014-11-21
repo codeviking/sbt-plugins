@@ -70,7 +70,7 @@ trait CoreDependencies {
 
   // Spray
   val sprayVersion = "1.3.1"
-  def sprayModule(id: String): ModuleID = "io.spray" % s"spray-$id" % sprayVersion
+  def sprayModule(id: String): ModuleID = "io.spray" %% s"spray-$id" % sprayVersion
   val sprayCan = sprayModule("can")
   val sprayRouting = sprayModule("routing")
   val sprayClient = sprayModule("client")
