@@ -58,7 +58,7 @@ trait CoreDependencies {
   val allenAiWebapp = common("webapp")
   val allenAiPipeline = common("pipeline")
 
-  val scopt = "com.github.scopt" % "scopt_2.10" % "3.2.0"
+  val scopt = "com.github.scopt" %% "scopt" % "3.2.0"
   val typesafeConfig = "com.typesafe" % "config" % "1.2.0"
 
   // Akka
